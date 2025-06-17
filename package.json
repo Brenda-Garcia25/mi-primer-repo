@@ -1,0 +1,23 @@
+{
+  "name": "gestion-empleados",
+  "version": "1.0.0",
+  "description": "Gestión de empleados con backend en Node.js y frontend en Angular",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && node backend/index.js",
+    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && nodemon backend/index.js",
+    "ng-serve": "set NODE_OPTIONS=--openssl-legacy-provider && ng serve"
+  },
+  "keywords": ["backend", "API", "empleados", "MongoDB", "Angular", "Node.js"],
+  "author": "Brenda",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
